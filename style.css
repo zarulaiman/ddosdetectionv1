@@ -1,0 +1,11 @@
+h1{
+  border: 6px solid #dcdcdc;
+}
+
+section.main{
+  background-color: #FFFFFF;
+}
+
+div.sidebar.content{
+  background: #FF0000;
+}
