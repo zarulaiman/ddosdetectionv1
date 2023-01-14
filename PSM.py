@@ -46,8 +46,8 @@ uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["cs
 if uploaded_file is not None:
     input_df = pd.read_csv(uploaded_file)
     df = input_df
-else:
-    st.sidebar.write("Please upload the .csv files and make sure the features are the same as the one that were used as example to make sure no error during the process.")
+#else:
+    #st.sidebar.write("Please upload the .csv files and make sure the features are the same as the one that were used as example to make sure no error during the process.")
 
 
 # Displays the user input features
