@@ -37,9 +37,9 @@ st.write("""
 
 st.sidebar.header('User Input Features')
 
-st.sidebar.write("""
-[Example CSV input file](https://raw.githubusercontent.com/zarulaiman/ddosdetectionv1/main/penguins_example.csv?token=GHSAT0AAAAAAB5GCAUKNSIIUIVJXBCDJQDAY5Z2VYQ)
-""")
+#st.sidebar.write("""
+#[Example CSV input file](https://raw.githubusercontent.com/zarulaiman/ddosdetectionv1/main/penguins_example.csv?token=GHSAT0AAAAAAB5GCAUKNSIIUIVJXBCDJQDAY5Z2VYQ)
+#""")
 
 # Collects user input features into dataframe
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type=["csv"])
